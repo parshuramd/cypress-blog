@@ -15,18 +15,6 @@ const PageTitle = styled.h1`
   color: ${props => props.theme.colors.primary};
 `;
 
-const Section = styled.section`
-  margin-bottom: 3rem;
-`;
-
-const SectionTitle = styled.h2`
-  font-size: 1.8rem;
-  margin-bottom: 1.5rem;
-  color: ${props => props.theme.colors.primary};
-  border-bottom: 2px solid ${props => props.theme.colors.accent};
-  padding-bottom: 0.5rem;
-`;
-
 const CommandCard = styled.div`
   background-color: white;
   border-radius: 8px;
